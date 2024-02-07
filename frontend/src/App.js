@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import "./Palette.css"
+
 
 function App() {
 		return (
-				<label>Hello from react js</label>
+						<div className="a-color-bg">
+						<label>Hello from react js</label>
+						</div>
 		);
 }
 

@@ -11,6 +11,9 @@ func main() {
 	router.Static("/static", "frontend/build/static")
 	
 	router.GET("/home", getHome)
+
+	// api := router.Group("/api")
+	// Api routing...
 	
 	router.Run("localhost:8080")
 }
