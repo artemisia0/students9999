@@ -10,7 +10,7 @@ func main() {
 
 	router.Static("/static", "frontend/build/static")
 	
-	router.GET("/home", getHome)
+	router.GET("/", getIndex)
 
 	// api := router.Group("/api")
 	// Api routing...
@@ -18,6 +18,6 @@ func main() {
 	router.Run("localhost:8080")
 }
 
-func getHome(c *gin.Context) {
+func getIndex(c *gin.Context) {
 	c.File("frontend/build/index.html")
 }

@@ -1,0 +1,54 @@
+* {
+		font-family: "DejaVu Sans";
+}
+
+nav ul {
+		display: flex;
+		justify-content: center;
+		list-style-type: none;
+		margin: 0px;
+		padding: 5px;
+}
+
+nav {
+		box-shadow: 0 1px 8px #808080;		
+}
+
+nav ul li {
+		display: inline;
+		padding: 10px;
+}
+
+li a {
+		text-align: center;
+		text-decoration: none;
+}
+
+.active {
+		color: #fedcba;
+		background-color: #8866a0;
+}
+
+li a:hover {
+		background-color: #abcdef;
+}
+
+.a-color-bg {
+		background-color: lightpink;
+}
+
+.b-color-bg {
+		background-color: lightgrey;
+}
+
+.c-color-bg {
+		background-color: lightblue;
+}
+
+.d-color-bg {
+		background-color: lightyellow;
+}
+
+.e-color-bg {
+		background-color: lightcyan;
+}
